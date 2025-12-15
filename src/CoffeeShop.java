@@ -1,7 +1,8 @@
 
 public class CoffeeShop {
 	int MAX_CUP;
-	
+	final int PRICE_COFFEE = 3500;
+	int totalMoney;
 	
 	CoffeeShop(int MAX_CUP){
 		this.MAX_CUP = MAX_CUP;
@@ -13,6 +14,8 @@ public class CoffeeShop {
 		}
 		--MAX_CUP;
 	}
+	
+	
 	
 	void showMaxCup() {
 		System.out.println("남은 잔: " + MAX_CUP + "잔");
