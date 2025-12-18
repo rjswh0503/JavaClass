@@ -19,13 +19,9 @@ public class E {
 	 * */
 	
 	
-	
-	
-	
 	//인스턴스 변수
 	
 	int e;
-	
 	
 	
 	//생성자
@@ -34,11 +30,7 @@ public class E {
 		this.e = e;
 	}
 	
-	
-	
-	
 	//메서드
-	
 	
 	int a1(int e) {
 		this.e++;
@@ -49,7 +41,6 @@ public class E {
 	int a2(int e ) {
 		this.e++;
 		return this.a3(e);
-		
 		
 	}
 	
